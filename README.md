@@ -85,7 +85,7 @@ Follow these steps to reproduce the analysis in the correct methodological order
 To see how the raw data was processed:
 
 1.  Open **Tableau Prep Builder**.
-2.  Load the file `DataCleaning - TresSigmas.tfl`.
+2.  Load the file `DataCleaning - TresSigmas.tflx` using Tableau Prep Builder.
 3.  **Note:** If the file shows a connection error, right-click the "Input" node and locate `Datasets/A-Detailed-Real-World-Fuel-Economy-Raw-Dataset.csv` on your local machine.
 4.  Run the flow to generate the output CSVs (optional, as they are already provided in the `Datasets` folder).
 
@@ -93,24 +93,6 @@ To see how the raw data was processed:
 
 To view the final dashboards:
 
-  * **For Baseline Analysis (V1):**
-
-    1.  Open `Visualizations/TresSigmas_Proposal_Visualization_v1.twb` in Tableau Desktop.
-    2.  If prompted for a data source, connect to `Datasets/Output - TresSigmas - DataCleaning.csv`.
-
-  * **For Refined Analysis (V2 - Recommended):**
-
-    1.  Open `Visualizations/TresSigmas_Proposal_Visualization_v2.twb` in Tableau Desktop.
-    2.  If prompted for a data source, connect to `Datasets/TresSigmas_DataClean_HuliNa.csv`.
-    3.  *Key Charts to Observe:*
-          * **Treemap:** Manufacturer CO2 Intensity.
-          * **Stacked Area:** Technology Adoption Rates.
-          * **Dual Axis:** Weight vs. MPG Trends.
-
-#### 3\. (Optional) Run Python Analysis
-
 1.  Navigate to the `Visualizations` folder.
-2.  Open `TresSigmas_Proposal_Visualization_v2.ipynb` in Jupyter Notebook.
+2.  Open `TresSigmas_Proposal_Visualization_v1.ipynb` or  `TresSigmas_Proposal_Visualization_v2.ipynb` in Jupyter Notebook or Google Colab.
 3.  Run all cells to generate the correlation heatmaps and statistical summaries.
-
-
