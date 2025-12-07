@@ -35,8 +35,6 @@ The project follows a linear data pipeline structure:
  ┃ ┗ 📜 TresSigmas_DataClean_HuliNa.csv                          # [OUTPUT 3] Final Cleaned Data (Avg Imputation)
  ┃
  ┣ 📂 Visualizations
- ┃ ┣ 📜 TresSigmas_Proposal_Visualization_v1.twb                 # Tableau Dashboard (Baseline Analysis)
- ┃ ┣ 📜 TresSigmas_Proposal_Visualization_v2.twb                 # Tableau Dashboard (Refined Analysis)
  ┃ ┣ 📜 TresSigmas_Proposal_Visualization_v1.ipynb               # Python Analysis (Baseline Code)
  ┃ ┗ 📜 TresSigmas_Proposal_Visualization_v2.ipynb               # Python Analysis (Refined Code)
  ┃
