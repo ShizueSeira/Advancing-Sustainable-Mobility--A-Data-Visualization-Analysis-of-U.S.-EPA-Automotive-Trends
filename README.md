@@ -13,10 +13,10 @@
 
 ## 📖 Project Overview
 
-This project explores historical trends in the U.S. automotive industry (1975–2024) using data from the **U.S. Environmental Protection Agency (EPA)**. By utilizing advanced data visualization techniques, we analyze the progression of fuel economy, CO2 emissions, and the adoption of cleaner vehicle technologies.
+The project explores historical trends in the U.S. automotive industry (1975–2024) using data from the **U.S. Environmental Protection Agency (EPA)**. By utilizing advanced data visualization techniques, we analyze the progression of fuel economy, CO2 emissions, and the adoption of cleaner vehicle technologies.
 
 ### 🎯 Objectives & SDG Alignment
-This analysis aims to address specific policy questions aligned with the **United Nations Sustainable Development Goals**:
+The analysis aims to address specific policy questions aligned with the **United Nations Sustainable Development Goals**:
 * **SDG 7 (Affordable and Clean Energy):** Examining real-world fuel economy improvements and the shift toward alternative fuel vehicles.
 * **SDG 13 (Climate Action):** Analyzing carbon dioxide CO2 emission reductions and the impact of vehicle weight/horsepower trade-offs on environmental goals.
 
