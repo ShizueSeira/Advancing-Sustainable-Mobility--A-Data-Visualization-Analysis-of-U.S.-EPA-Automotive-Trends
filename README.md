@@ -1,30 +1,35 @@
+
+
 # Advancing Sustainable Mobility: A Data Visualization Analysis of U.S. EPA Automotive Trends
 
 **Team Tres Sigmas** | **Course:** 4CSE (Computer Science) | **Subject:** DataViz-E 1
 
----
+-----
 
 ## 👥 Team Members
-* **Inventado, Charles Fredric G.**
-* **Rodelas, John Vincent B.**
-* **Valles, James Vincent V.**
 
----
+  * **Inventado, Charles Fredric G.**
+  * **Rodelas, John Vincent B.**
+  * **Valles, James Vincent V.**
+
+-----
 
 ## 📖 Project Overview
 
 The project explores historical trends in the U.S. automotive industry (1975–2024) using data from the **U.S. Environmental Protection Agency (EPA)**. By utilizing advanced data visualization techniques, we analyze the progression of fuel economy, CO2 emissions, and the adoption of cleaner vehicle technologies.
 
 ### 🎯 Objectives & SDG Alignment
-The analysis aims to address specific policy questions aligned with the **United Nations Sustainable Development Goals**:
-* **SDG 7 (Affordable and Clean Energy):** Examining real-world fuel economy improvements and the shift toward alternative fuel vehicles.
-* **SDG 13 (Climate Action):** Analyzing carbon dioxide CO2 emission reductions and the impact of vehicle weight/horsepower trade-offs on environmental goals.
 
----
+The analysis aims to address specific policy questions aligned with the **United Nations Sustainable Development Goals**:
+
+  * **SDG 7 (Affordable and Clean Energy):** Examining real-world fuel economy improvements and the shift toward alternative fuel vehicles.
+  * **SDG 13 (Climate Action):** Analyzing carbon dioxide CO2 emission reductions and the impact of vehicle weight/horsepower trade-offs on environmental goals.
+
+-----
 
 ## 📂 Repository Structure
 
-The project follows a linear data pipeline structure:
+The project follows a linear data pipeline structure. **The comprehensive analysis and final conclusions can be found in the Final Report.**
 
 ```text
 📦 Advancing-Sustainable-Mobility
@@ -39,8 +44,9 @@ The project follows a linear data pipeline structure:
  ┃ ┗ 📜 TresSigmas_Proposal_Visualization_v2.ipynb               # Python Analysis (Refined Code)
  ┃
  ┣ 📜 DataCleaning - TresSigmas.tfl                              # [PIPELINE] Tableau Prep Builder Flow
+ ┣ 📜 TresSigmas_Final Course Project_FinalReport.pdf            # [FINAL] Full Project Report (Methodology, Visuals, Conclusion)
  ┗ 📜 TresSigmas_4CSE_DataViz-E 1_CourseProjectProposal_Final.pdf # Project Proposal & Literature Review
-````
+```
 
 -----
 
@@ -64,6 +70,17 @@ We utilized two different analytical approaches to handle missing performance da
 | :--- | :--- | :--- | :--- |
 | **V1 (Baseline)** | **Zero (0) Imputation:** Missing numerical values replaced with 0. | `Output - TresSigmas - DataCleaning.csv` | Initial Exploratory Data Analysis (EDA) and distribution checks. |
 | **V2 (Refined)** | **Average Imputation:** Missing values replaced with column/category averages. | `TresSigmas_DataClean_HuliNa.csv` | Statistical analysis minimizing skew; used for Heatmaps, Treemaps, and Dual Axis charts. |
+
+-----
+
+## 🚀 Key Findings (From Final Report)
+
+Based on the visualizations generated in the `TresSigmas_Final Course Project_FinalReport.pdf`, the study concluded:
+
+  * **The "Masking Effect":** While internal combustion engine technology has improved, gains are largely negated by a consistent increase in vehicle weight and horsepower since 1975.
+  * **Segment Disparity:** Sedans/Wagons remain the most efficient vehicle types, while Truck SUVs and Pickups consistently rank lowest in fuel economy.
+  * **Production vs. Pollution:** A Treemap analysis revealed that manufacturers with the highest production volumes (e.g., GM, Stellantis) also exhibit high CO2 emission intensities due to fleet compositions dominated by heavier vehicles.
+  * **SDG Implications:** The market shift toward heavier vehicles creates a critical barrier to achieving SDG 7 (Energy Efficiency) and SDG 13 (Climate Action).
 
 -----
 
